@@ -1,4 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
 
 const POLYGON_MUMBAI_RPC = process.env.POLYGON_MUMBAI_RPC;
 const POLYGON_MUMBAI_KEY = process.env.POLYGON_MUMBAI_KEY;
